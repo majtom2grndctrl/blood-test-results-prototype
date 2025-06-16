@@ -13,14 +13,16 @@ import { ChevronDown } from "lucide-react"
 import * as Icons from "lucide-react"
 import type { NavItem } from "../lib/navigation"
 
-export function CollapsibleNavSection({ 
+export function CollapsibleNavSection({
   item,
-  pathname 
-}: { 
+  pathname,
+  initialOpen = false,
+}: {
   item: NavItem
   pathname: string
+  initialOpen?: boolean
 }) {
-  const [isOpen, setIsOpen] = useState(false)
+  const [isOpen, setIsOpen] = useState(initialOpen)
   const Icon = item.iconName ? Icons[item.iconName as keyof typeof Icons] as Icons.LucideIcon : null
 
   return (

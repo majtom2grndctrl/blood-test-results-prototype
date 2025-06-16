@@ -80,6 +80,7 @@ function NavItemComponent({
     <CollapsibleNavSection 
       item={item} 
       pathname={pathname}
+      initialOpen={hasSubItems && item.subItems!.some(subItem => pathname.startsWith(subItem.href))}
     />
   )
 } 
