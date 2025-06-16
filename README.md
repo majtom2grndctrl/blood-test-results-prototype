@@ -1,5 +1,11 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## This is a prototype
+
+It isn’t meant to be a production web application, but rather, it was meant to help explore how to show results for a blood test in a quick way.
+
+
+
 ## Getting Started
 
 First, run the development server:
@@ -14,7 +20,10 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000/medical-records/test-results](http://localhost:3000/medical-records/test-results) with your browser to see the result.
+
+
+### Original Readme below
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
