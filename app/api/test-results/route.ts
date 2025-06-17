@@ -150,6 +150,45 @@ const mockData: SampleTestResultSchema = {
   patient: {
     id: 784390782,
     name: 'Skip Reilley'
+  },
+  dates: {
+    orderedAt: '2024-10-25T09:00:00Z',    // Stored as ISO string in DB
+    collectedAt: '2024-10-28T14:30:00Z',
+    analyzedAt: '2024-10-28T16:45:00Z',
+    reportedAt: '2024-10-28T17:30:00Z',
+    reviewedAt: '2024-10-28T19:15:00Z'
+  },
+  doctor: {
+    id: 12345,
+    name: 'Dr. Sidney Ryan',
+    credentials: 'MD, PhD'
+  },
+  doctorNotes: {
+    content: `
+      <h3>Summary</h3>
+      <p>Overall blood panel results show mostly normal values with a few areas of concern:</p>
+      <ul>
+        <li>Total Protein is critically low at 4.5 g/dL, suggesting possible malnutrition or liver dysfunction</li>
+        <li>LDL Cholesterol is moderately high at 140 mg/dL</li>
+      </ul>
+      
+      <h3>Recommendations</h3>
+      <ul>
+        <li>Schedule follow-up in 2 weeks to recheck Total Protein</li>
+        <li>Dietary modifications to address LDL levels</li>
+        <li>Consider nutritional consultation</li>
+      </ul>
+      
+      <h3>Additional Notes</h3>
+      <p>Patient reports consistent exercise routine and recent dietary changes. Will monitor protein levels closely during follow-up.</p>
+    `,
+    createdAt: '2024-10-28T19:15:00Z',
+    updatedAt: '2024-10-28T19:30:00Z',
+    author: {
+      id: 12345,
+      name: 'Dr. Sidney Ryan',
+      credentials: 'MD, PhD'
+    }
   }
 }
 

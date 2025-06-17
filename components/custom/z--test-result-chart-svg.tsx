@@ -72,7 +72,7 @@ const TestResultChart: React.FC<TestResultChartProps> = ({
   ]
 
   // Pre-calculate all section positions using percentages
-  const sectionPositions = sections.map((section, index) => {
+  const sectionPositions = sections.map((section) => {
     const startPercent = valueToPercent(section.range[0])
     const endPercent = valueToPercent(section.range[1])
     return {
