@@ -5,7 +5,7 @@ const mockData: SampleTestResultSchema = {
   bloodPanel: [
     {
       testName: "Blood Glucose (Fasting)",
-      // testValue: 90,
+      testValue: 90,
       testValueUnit: "mg/dL",
       testDescription: "Blood glucose measures sugar in the blood after fasting and helps diagnose diabetes.",
       testCriteria: {
@@ -18,7 +18,7 @@ const mockData: SampleTestResultSchema = {
     },
     {
       testName: "Blood Urea Nitrogen (BUN)",
-      // testValue: 15,
+      testValue: 15,
       testValueUnit: "mg/dL",
       testDescription: "BUN measures kidney function by determining how well they remove urea from the blood.",
       testCriteria: {
@@ -44,7 +44,7 @@ const mockData: SampleTestResultSchema = {
     },
     {
       testName: "Creatinine",
-      // testValue: 1,
+      testValue: 1,
       testValueUnit: "mg/dL",
       testDescription: "Creatinine is a waste product filtered by the kidneys. High levels may indicate kidney dysfunction.",
       testCriteria: {
@@ -83,7 +83,7 @@ const mockData: SampleTestResultSchema = {
     },
     {
       testName: "Hemoglobin",
-      // testValue: 13.5,
+      testValue: 13.5,
       testValueUnit: "g/dL",
       testDescription: "Hemoglobin is a protein in red blood cells that carries oxygen throughout the body.",
       testCriteria: {
@@ -96,7 +96,7 @@ const mockData: SampleTestResultSchema = {
     },
     {
       testName: "Platelet Count",
-      // testValue: 250,
+      testValue: 250,
       testValueUnit: "cells/µL",
       testDescription: "Platelets help with blood clotting to prevent excessive bleeding.",
       testCriteria: {
@@ -109,7 +109,7 @@ const mockData: SampleTestResultSchema = {
     },
     {
       testName: "Total Protein",
-      // testValue: 4.5,
+      testValue: 4.5,
       testValueUnit: "g/dL",
       testDescription: "Total protein measures the overall protein levels in the blood, which reflect liver and kidney function.",
       testCriteria: {
@@ -135,7 +135,7 @@ const mockData: SampleTestResultSchema = {
     },
     {
       testName: "White Blood Cell Count (WBC)",
-      // testValue: 7.2,
+      testValue: 7.2,
       testValueUnit: "cells/µL",
       testDescription: "WBC count measures the number of white blood cells, which help fight infections.",
       testCriteria: {
